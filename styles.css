@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: middle;
+}
+
+div {
+  position: static;
+  z-index: 1;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.footer {
+  width: 550px;
+  text-align: center;
+  display: block;
+  margin: 20px auto 40px auto;
+  font-size: 0.9em;
+  color: #666;
+}
+.footer a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #333;
+}
+
+#quote-box {
+  border-radius: 5px;
+  position: relative;
+  width: 550px;
+  padding: 50px 60px;
+  display: table;
+  background-color: #fff;
+}
+#quote-box .quote-text {
+  text-align: center;
+  width: 550px;
+  height: auto;
+  clear: both;
+  font-weight: 600;
+  font-size: 2em;
+}
+#quote-box .quote-text i {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}
+#quote-box .quote-author {
+  width: 550px;
+  height: auto;
+  clear: both;
+  padding-top: 25px;
+  font-size: 1.2em;
+  text-align: right;
+}
+#quote-box .buttons {
+  width: 550px;
+  margin: auto;
+  display: block;
+}
+#quote-box .buttons .button {
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 1em;
+  padding: 10px 24px 8px 24px;
+  margin-top: 40px;
+  opacity: 1;
+  cursor: pointer;
+}
+#quote-box .buttons .button:hover {
+  opacity: 0.95;
+}
+#quote-box .buttons .button#tweet-quote,
+#quote-box .buttons .button#tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 12px;
+  text-align: center;
+  font-size: 1.4em;
+  margin-right: 8px;
+  height: 36px;
+  width: 48px;
+}
+#quote-box .buttons .button#new-quote {
+  float: right;
+}
